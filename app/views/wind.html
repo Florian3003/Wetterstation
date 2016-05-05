@@ -1,0 +1,42 @@
+<div class="alert alert-info" role="alert">{{socketState}}</div>
+
+<div class="panel panel-default">
+  <div class="panel-body">
+    Aktuelle Windgeschwindigkeit:
+  </div>
+  <div class="panel-footer">{{socketData.values.windSpeed}} Km/h</div>
+  </div>
+
+</div><div class="panel panel-default">
+  <div class="panel-body">
+    maximale tages Windgeschwindigkeit:
+  </div>
+  <div class="panel-footer">{{socketData.values.windSpeedDayMax.value}} Km/h um {{socketData.values.windSpeedDayMax.time}} Uhr</div>
+</div>
+
+</div><div class="panel panel-default">
+  <div class="panel-body">
+    Aktuelle Temperatur
+  </div>
+  <div class="panel-footer">{{socketData.values.temp}} °C</div>
+</div>
+
+</div><div class="panel panel-default">
+  <div class="panel-body">
+    maximale tages Temperatur:
+  </div>
+  <div class="panel-footer">{{socketData.values.maxTemp.value}} °C um {{socketData.values.maxTemp.time}} Uhr</div>
+</div>
+
+
+</div><div class="panel panel-default">
+  <div class="panel-body">
+    minimale tages Temperatur:
+  </div>
+  <div class="panel-footer">{{socketData.values.minTemp.value}} °C um {{socketData.values.minTemp.time}} Uhr</div>
+</div>
+
+<p>CSS - kommt von Bootstrap - Components</p>
+
+
+
