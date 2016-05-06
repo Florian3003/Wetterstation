@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/scripts/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/controllers/wind.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/about.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/komponenten.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/wind.html" charset="UTF-8" />
+    <file url="PROJECT" charset="ISO-8859-1" />
+  </component>
+</project>

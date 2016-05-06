@@ -1,0 +1,13 @@
+<div class="container">
+    <form class="form-signin">
+        <h2 class="form-signin-heading">
+            Bitte Anmelden:
+        </h2>
+        <label for="inputUser" class="sr-only">Benutzer</label>
+        <input type="text" ng-model="inputUser" class="form-control" placeholder="Benutzer" required autofocus>
+        <label for="inputPassword" class="sr-only">Passwort</label>
+        <input type="password" ng-model="inputPassword" class="form-control" placeholder="Passwort" required autofocus>
+        <button ng-click="getResponse()" class="btn btn-lg btn-primary btn-block" type="submit">Anmelden</button>
+        <div>{{name}}</div>
+    </form>
+</div>
